@@ -1,0 +1,16 @@
+#!ipxe
+# clear any loaded files (avoids push into the wim)
+imgfree
+kernel wimboot gui                                                                 || shell
+initrd --name BCD                win10/BCD                      BCD                || shell
+initrd --name boot.sdi           win10/boot.sdi                 boot.sdi           || shell
+# these are copied to several different places in the path on virtual VFAT that wimboot creates
+initrd --name segmono_boot.ttf   win10/Fonts/segmono_boot.ttf   segmono_boot.ttf   || shell
+initrd --name segoe_slboot.ttf   win10/Fonts/segoe_slboot.ttf   segoe_slboot.ttf   || shell
+initrd --name wgl4_boot.ttf      win10/Fonts/wgl4_boot.ttf      wgl4_boot.ttf      || shell
+# actuall boot.wim, must be boot.wim both in EFI and PCBIOS
+initrd --name boot.wim           win10/win10_boot_64_en.wim     boot.wim           || shell
+initrd --name startnet.cmd  win10/startnet.php?mac=${netX/mac:hexraw}  startnet.cmd       || shell
+initrd --name setup.bmp          win10/background.bmp           setup.bmp          || echo no background - ignored
+boot || shell
+goto start
