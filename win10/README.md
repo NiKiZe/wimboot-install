@@ -23,5 +23,5 @@ remember to run unix2dos on it.
 
 place background as \Windows\System32\setup.bmp, winpe.jpg and winre.jpg
 In the sources of the setup, replace background_cli.bmp (use pbrush to save it in the existing format)
-
+Then there is also spwizimg.dll which can be modified
 
