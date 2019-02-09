@@ -1,11 +1,20 @@
 #!ipxe
 
+set nloc ${netX/busloc}
+set pciid ${pci/${nloc}.0.2}${pci/${nloc}.2.2}
+
 # clear any loaded files (avoids push into the wim)
 imgfree
 kernel wimboot gui rawbcd                                                          || shell
 initrd --name BCD                win10/BCD                      BCD                || shell
 initrd --name boot.sdi           win10/boot.sdi                 boot.sdi           || shell
-initrd --name startnet.cmd  win10/startnet.php?mac=${netX/mac:hexraw}  startnet.cmd       || shell
+iseq ${pciid} 808615bb || goto skip_e1d68
+initrd     win10/drv/i219v_e1d68/e1d68x64.cat ||
+initrd     win10/drv/i219v_e1d68/e1d68x64.inf ||
+initrd     win10/drv/i219v_e1d68/e1d68x64.sys ||
+initrd     win10/drv/i219v_e1d68/e1dmsg.dll ||
+:skip_e1d68
+initrd --name startnet.cmd  win10/startnet.php?mac=${netX/mac:hexraw}&pciid=${pciid}  startnet.cmd       || shell
 initrd --name winpe.jpg          win10/winpe.jpg                winpe.jpg          || echo no background - ignored
 initrd --name winre.jpg          win10/winpe.jpg                winre.jpg          || echo no background - ignored
 initrd --name setup.bmp          win10/winpe.jpg                setup.bmp          || echo no background - ignored

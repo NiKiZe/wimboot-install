@@ -4,6 +4,9 @@ $SELF="http://".$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']);
 ?>TITLE Bootstrap...
 :: start extra cmd for manipulations
 start cmd
+>cleandisk.scrpt ECHO select disk 0
+>>cleandisk.scrpt ECHO clean
+>cleandisk.cmd ECHO diskpart /s cleandisk.scrpt
 :: wpeinit loads the shell
 wpeinit
 :: set high performance
@@ -28,9 +31,9 @@ IF NOT %ERRORLEVEL% == 0 (
   GOTO :FAIL
 )
 echo starting setup ...
-@"s:\sources en\sources\setup.exe" /noreboot /unattend:"s:\extboot en\autounattend.xml"
-
-
+@"s:\sources en\sources\setup.exe" /unattend:"s:\extboot en\autounattend.xml"
+ECHO %ERRORLEVEL%
+::IF %ERRORLEVEL% EQU 0 wpeutil reboot
 
 
 
