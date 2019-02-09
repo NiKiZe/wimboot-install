@@ -1,12 +1,19 @@
 <?php
 header("Content-Type: text/dos");
 $SELF="http://".$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']);
+$mac=$_GET["mac"];
+$pciid=$_GET["pciid"];
 ?>TITLE Bootstrap...
 :: start extra cmd for manipulations
 start cmd
 >cleandisk.scrpt ECHO select disk 0
 >>cleandisk.scrpt ECHO clean
 >cleandisk.cmd ECHO diskpart /s cleandisk.scrpt
+<?php
+if ($pciid == "808615bb") {
+    echo "echo Loading extra drivers ${pciid}...\r\n";
+    echo "drvload e1d68x64.inf\r\n";
+} ?>
 :: wpeinit loads the shell
 wpeinit
 :: set high performance
