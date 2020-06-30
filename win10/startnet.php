@@ -10,9 +10,14 @@ start cmd
 >>cleandisk.scrpt ECHO clean
 >cleandisk.cmd ECHO diskpart /s cleandisk.scrpt
 <?php
-if ($pciid == "808615bb") {
+if ($pciid == "808615bb" || $pciid == "808615be") {
     echo "echo Loading extra drivers ${pciid}...\r\n";
     echo "drvload e1d68x64.inf\r\n";
+} else if (strpos($pciid, "1af4") === 0) {
+    echo "echo Loading extra drivers ${pciid}...\r\n";
+    echo "drvload netkvm.inf\r\n";
+    echo "drvload vioscsi.inf\r\n";
+    echo "drvload viostor.inf\r\n";
 } ?>
 :: wpeinit loads the shell
 wpeinit

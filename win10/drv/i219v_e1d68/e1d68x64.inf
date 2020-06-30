@@ -1,6 +1,6 @@
 ;******************************************************************************
 ;**                                                                          **
-;**  Copyright 2009-2018 Intel Corporation. All Rights Reserved.             **
+;**  Copyright 2009-2019 Intel Corporation. All Rights Reserved.             **
 ;**                                                                          **
 ;**  The material contained or described herein and all documents related    **
 ;**  to such material ("Material") is owned by Intel Corporation or its      **
@@ -19,7 +19,7 @@
 ;**                                                                          **
 ;**  Unless otherwise agreed by Intel in writing, you may not remove or      **
 ;**  alter this notice or any other notice embedded in Materials by Intel    **
-;**  or Intelís suppliers or licensors in any way.                           **
+;**  or Intel's suppliers or licensors in any way.                           **
 ;******************************************************************************
 ;
 ;******************************************************************************
@@ -38,10 +38,10 @@ Class       = Net
 ClassGUID   = {4d36e972-e325-11ce-bfc1-08002be10318}
 Provider    = %Intel%
 CatalogFile = e1d68x64.cat
-DriverVer = 10/04/2018,12.18.8.4
+DriverVer = 07/25/2019,12.18.9.10
 
 [Manufacturer]
-%Intel%     = Intel, NTamd64.10.0, NTamd64.10.0.1
+%Intel%     = Intel, NTamd64.10.0, NTamd64.10.0.1,  NTamd64.10.0...18362, NTamd64.10.0.1..18362
 
 [ControlFlags]
 ExcludeFromSelect = \ 
@@ -103,6 +103,104 @@ ExcludeFromSelect = \
 %E15E1NC.DeviceDesc%            = E15E1.10.0.1,       PCI\VEN_8086&DEV_15E1&SUBSYS_00008086
 %E15E2NC.DeviceDesc%            = E15E2.10.0.1,       PCI\VEN_8086&DEV_15E2
 %E15E2NC.DeviceDesc%            = E15E2.10.0.1,       PCI\VEN_8086&DEV_15E2&SUBSYS_00008086
+%E0D4ENC.DeviceDesc%            = E0D4E.10.0.1,       PCI\VEN_8086&DEV_0D4E
+%E0D4ENC.DeviceDesc%            = E0D4E.10.0.1,       PCI\VEN_8086&DEV_0D4E&SUBSYS_00008086
+%E0D4FNC.DeviceDesc%            = E0D4F.10.0.1,       PCI\VEN_8086&DEV_0D4F
+%E0D4FNC.DeviceDesc%            = E0D4F.10.0.1,       PCI\VEN_8086&DEV_0D4F&SUBSYS_00008086
+%E0D4CNC.DeviceDesc%            = E0D4C.10.0.1,       PCI\VEN_8086&DEV_0D4C
+%E0D4CNC.DeviceDesc%            = E0D4C.10.0.1,       PCI\VEN_8086&DEV_0D4C&SUBSYS_00008086
+%E0D4DNC.DeviceDesc%            = E0D4D.10.0.1,       PCI\VEN_8086&DEV_0D4D
+%E0D4DNC.DeviceDesc%            = E0D4D.10.0.1,       PCI\VEN_8086&DEV_0D4D&SUBSYS_00008086
+%E0D53NC.DeviceDesc%            = E0D53.10.0.1,       PCI\VEN_8086&DEV_0D53
+%E0D53NC.DeviceDesc%            = E0D53.10.0.1,       PCI\VEN_8086&DEV_0D53&SUBSYS_00008086
+%E0D55NC.DeviceDesc%            = E0D55.10.0.1,       PCI\VEN_8086&DEV_0D55
+%E0D55NC.DeviceDesc%            = E0D55.10.0.1,       PCI\VEN_8086&DEV_0D55&SUBSYS_00008086
+%E15F9NC.DeviceDesc%            = E15F9.10.0.1,       PCI\VEN_8086&DEV_15F9
+%E15F9NC.DeviceDesc%            = E15F9.10.0.1,       PCI\VEN_8086&DEV_15F9&SUBSYS_00008086
+%E15FANC.DeviceDesc%            = E15FA.10.0.1,       PCI\VEN_8086&DEV_15FA
+%E15FANC.DeviceDesc%            = E15FA.10.0.1,       PCI\VEN_8086&DEV_15FA&SUBSYS_00008086
+%E15FBNC.DeviceDesc%            = E15FB.10.0.1,       PCI\VEN_8086&DEV_15FB
+%E15FBNC.DeviceDesc%            = E15FB.10.0.1,       PCI\VEN_8086&DEV_15FB&SUBSYS_00008086
+%E15FCNC.DeviceDesc%            = E15FC.10.0.1,       PCI\VEN_8086&DEV_15FC
+%E15FCNC.DeviceDesc%            = E15FC.10.0.1,       PCI\VEN_8086&DEV_15FC&SUBSYS_00008086
+%E15F4NC.DeviceDesc%            = E15F4.10.0.1,       PCI\VEN_8086&DEV_15F4
+%E15F4NC.DeviceDesc%            = E15F4.10.0.1,       PCI\VEN_8086&DEV_15F4&SUBSYS_00008086
+
+[Intel.NTamd64.10.0.1..18362]
+; DisplayName                   Section              DeviceID
+; -----------                   -------              --------
+%E153ANC.DeviceDesc%            = E153A.10.0.1.19H1,       PCI\VEN_8086&DEV_153A
+%E153ANC.DeviceDesc%            = E153A.10.0.1.19H1,       PCI\VEN_8086&DEV_153A&SUBSYS_00008086
+%E153BNC.DeviceDesc%            = E153B.10.0.1.19H1,       PCI\VEN_8086&DEV_153B
+%E153BNC.DeviceDesc%            = E153B.10.0.1.19H1,       PCI\VEN_8086&DEV_153B&SUBSYS_00008086
+%E155ANC.DeviceDesc%            = E155A.10.0.1.19H1,       PCI\VEN_8086&DEV_155A
+%E155ANC.DeviceDesc%            = E155A.10.0.1.19H1,       PCI\VEN_8086&DEV_155A&SUBSYS_00008086
+%E1559NC.DeviceDesc%            = E1559.10.0.1.19H1,       PCI\VEN_8086&DEV_1559
+%E1559NC.DeviceDesc%            = E1559.10.0.1.19H1,       PCI\VEN_8086&DEV_1559&SUBSYS_00008086
+%E15A0NC.DeviceDesc%            = E15A0.10.0.1.19H1,       PCI\VEN_8086&DEV_15A0
+%E15A0NC.DeviceDesc%            = E15A0.10.0.1.19H1,       PCI\VEN_8086&DEV_15A0&SUBSYS_00008086
+%E15A1NC.DeviceDesc%            = E15A1.10.0.1.19H1,       PCI\VEN_8086&DEV_15A1
+%E15A1NC.DeviceDesc%            = E15A1.10.0.1.19H1,       PCI\VEN_8086&DEV_15A1&SUBSYS_00008086
+%E15A2NC.DeviceDesc%            = E15A2.10.0.1.19H1,       PCI\VEN_8086&DEV_15A2
+%E15A2NC.DeviceDesc%            = E15A2.10.0.1.19H1,       PCI\VEN_8086&DEV_15A2&SUBSYS_00008086
+%E15A3NC.DeviceDesc%            = E15A3.10.0.1.19H1,       PCI\VEN_8086&DEV_15A3
+%E15A3NC.DeviceDesc%            = E15A3.10.0.1.19H1,       PCI\VEN_8086&DEV_15A3&SUBSYS_00008086
+%E156FNC.DeviceDesc%            = E156F.10.0.1.19H1,       PCI\VEN_8086&DEV_156F
+%E156FNC.DeviceDesc%            = E156F.10.0.1.19H1,       PCI\VEN_8086&DEV_156F&SUBSYS_00008086
+%E1570NC.DeviceDesc%            = E1570.10.0.1.19H1,       PCI\VEN_8086&DEV_1570
+%E1570NC.DeviceDesc%            = E1570.10.0.1.19H1,       PCI\VEN_8086&DEV_1570&SUBSYS_00008086
+%E15B7NC.DeviceDesc%            = E15B7.10.0.1.19H1,       PCI\VEN_8086&DEV_15B7
+%E15B7NC.DeviceDesc%            = E15B7.10.0.1.19H1,       PCI\VEN_8086&DEV_15B7&SUBSYS_00008086
+%E15B8NC.DeviceDesc%            = E15B8.10.0.1.19H1,       PCI\VEN_8086&DEV_15B8
+%E15B8NC.DeviceDesc%            = E15B8.10.0.1.19H1,       PCI\VEN_8086&DEV_15B8&SUBSYS_00008086
+%E15B9NC.DeviceDesc%            = E15B9.10.0.1.19H1,       PCI\VEN_8086&DEV_15B9
+%E15B9NC.DeviceDesc%            = E15B9.10.0.1.19H1,       PCI\VEN_8086&DEV_15B9&SUBSYS_00008086
+%E15D7NC.DeviceDesc%            = E15D7.10.0.1.19H1,       PCI\VEN_8086&DEV_15D7
+%E15D7NC.DeviceDesc%            = E15D7.10.0.1.19H1,       PCI\VEN_8086&DEV_15D7&SUBSYS_00008086
+%E15D8NC.DeviceDesc%            = E15D8.10.0.1.19H1,       PCI\VEN_8086&DEV_15D8
+%E15D8NC.DeviceDesc%            = E15D8.10.0.1.19H1,       PCI\VEN_8086&DEV_15D8&SUBSYS_00008086
+%E15E3NC.DeviceDesc%            = E15E3.10.0.1.19H1,       PCI\VEN_8086&DEV_15E3
+%E15E3NC.DeviceDesc%            = E15E3.10.0.1.19H1,       PCI\VEN_8086&DEV_15E3&SUBSYS_00008086
+%E15D6NC.DeviceDesc%            = E15D6.10.0.1.19H1,       PCI\VEN_8086&DEV_15D6
+%E15D6NC.DeviceDesc%            = E15D6.10.0.1.19H1,       PCI\VEN_8086&DEV_15D6&SUBSYS_00008086
+%E15BBNC.DeviceDesc%            = E15BB.10.0.1.19H1,       PCI\VEN_8086&DEV_15BB
+%E15BBNC.DeviceDesc%            = E15BB.10.0.1.19H1,       PCI\VEN_8086&DEV_15BB&SUBSYS_00008086
+%E15BCNC.DeviceDesc%            = E15BC.10.0.1.19H1,       PCI\VEN_8086&DEV_15BC
+%E15BCNC.DeviceDesc%            = E15BC.10.0.1.19H1,       PCI\VEN_8086&DEV_15BC&SUBSYS_00008086
+%E15BDNC.DeviceDesc%            = E15BD.10.0.1.19H1,       PCI\VEN_8086&DEV_15BD
+%E15BDNC.DeviceDesc%            = E15BD.10.0.1.19H1,       PCI\VEN_8086&DEV_15BD&SUBSYS_00008086
+%E15BENC.DeviceDesc%            = E15BE.10.0.1.19H1,       PCI\VEN_8086&DEV_15BE
+%E15BENC.DeviceDesc%            = E15BE.10.0.1.19H1,       PCI\VEN_8086&DEV_15BE&SUBSYS_00008086
+%E15DFNC.DeviceDesc%            = E15DF.10.0.1.19H1,       PCI\VEN_8086&DEV_15DF
+%E15DFNC.DeviceDesc%            = E15DF.10.0.1.19H1,       PCI\VEN_8086&DEV_15DF&SUBSYS_00008086
+%E15E0NC.DeviceDesc%            = E15E0.10.0.1.19H1,       PCI\VEN_8086&DEV_15E0
+%E15E0NC.DeviceDesc%            = E15E0.10.0.1.19H1,       PCI\VEN_8086&DEV_15E0&SUBSYS_00008086
+%E15E1NC.DeviceDesc%            = E15E1.10.0.1.19H1,       PCI\VEN_8086&DEV_15E1
+%E15E1NC.DeviceDesc%            = E15E1.10.0.1.19H1,       PCI\VEN_8086&DEV_15E1&SUBSYS_00008086
+%E15E2NC.DeviceDesc%            = E15E2.10.0.1.19H1,       PCI\VEN_8086&DEV_15E2
+%E15E2NC.DeviceDesc%            = E15E2.10.0.1.19H1,       PCI\VEN_8086&DEV_15E2&SUBSYS_00008086
+%E0D4ENC.DeviceDesc%            = E0D4E.10.0.1.19H1,       PCI\VEN_8086&DEV_0D4E
+%E0D4ENC.DeviceDesc%            = E0D4E.10.0.1.19H1,       PCI\VEN_8086&DEV_0D4E&SUBSYS_00008086
+%E0D4FNC.DeviceDesc%            = E0D4F.10.0.1.19H1,       PCI\VEN_8086&DEV_0D4F
+%E0D4FNC.DeviceDesc%            = E0D4F.10.0.1.19H1,       PCI\VEN_8086&DEV_0D4F&SUBSYS_00008086
+%E0D4CNC.DeviceDesc%            = E0D4C.10.0.1.19H1,       PCI\VEN_8086&DEV_0D4C
+%E0D4CNC.DeviceDesc%            = E0D4C.10.0.1.19H1,       PCI\VEN_8086&DEV_0D4C&SUBSYS_00008086
+%E0D4DNC.DeviceDesc%            = E0D4D.10.0.1.19H1,       PCI\VEN_8086&DEV_0D4D
+%E0D4DNC.DeviceDesc%            = E0D4D.10.0.1.19H1,       PCI\VEN_8086&DEV_0D4D&SUBSYS_00008086
+%E0D53NC.DeviceDesc%            = E0D53.10.0.1.19H1,       PCI\VEN_8086&DEV_0D53
+%E0D53NC.DeviceDesc%            = E0D53.10.0.1.19H1,       PCI\VEN_8086&DEV_0D53&SUBSYS_00008086
+%E0D55NC.DeviceDesc%            = E0D55.10.0.1.19H1,       PCI\VEN_8086&DEV_0D55
+%E0D55NC.DeviceDesc%            = E0D55.10.0.1.19H1,       PCI\VEN_8086&DEV_0D55&SUBSYS_00008086
+%E15F9NC.DeviceDesc%            = E15F9.10.0.1.19H1,       PCI\VEN_8086&DEV_15F9
+%E15F9NC.DeviceDesc%            = E15F9.10.0.1.19H1,       PCI\VEN_8086&DEV_15F9&SUBSYS_00008086
+%E15FANC.DeviceDesc%            = E15FA.10.0.1.19H1,       PCI\VEN_8086&DEV_15FA
+%E15FANC.DeviceDesc%            = E15FA.10.0.1.19H1,       PCI\VEN_8086&DEV_15FA&SUBSYS_00008086
+%E15FBNC.DeviceDesc%            = E15FB.10.0.1.19H1,       PCI\VEN_8086&DEV_15FB
+%E15FBNC.DeviceDesc%            = E15FB.10.0.1.19H1,       PCI\VEN_8086&DEV_15FB&SUBSYS_00008086
+%E15FCNC.DeviceDesc%            = E15FC.10.0.1.19H1,       PCI\VEN_8086&DEV_15FC
+%E15FCNC.DeviceDesc%            = E15FC.10.0.1.19H1,       PCI\VEN_8086&DEV_15FC&SUBSYS_00008086
+%E15F4NC.DeviceDesc%            = E15F4.10.0.1.19H1,       PCI\VEN_8086&DEV_15F4
+%E15F4NC.DeviceDesc%            = E15F4.10.0.1.19H1,       PCI\VEN_8086&DEV_15F4&SUBSYS_00008086
 
 [Intel.NTamd64.10.0]
 ; DisplayName                   Section        DeviceID
@@ -133,6 +231,69 @@ ExcludeFromSelect = \
 %E15DFNC.DeviceDesc%            = E15DF,       PCI\VEN_8086&DEV_15DF&SUBSYS_00008086
 %E15E1NC.DeviceDesc%            = E15E1,       PCI\VEN_8086&DEV_15E1
 %E15E1NC.DeviceDesc%            = E15E1,       PCI\VEN_8086&DEV_15E1&SUBSYS_00008086
+%E0D4ENC.DeviceDesc%            = E0D4E,       PCI\VEN_8086&DEV_0D4E
+%E0D4ENC.DeviceDesc%            = E0D4E,       PCI\VEN_8086&DEV_0D4E&SUBSYS_00008086
+%E0D4CNC.DeviceDesc%            = E0D4C,       PCI\VEN_8086&DEV_0D4C
+%E0D4CNC.DeviceDesc%            = E0D4C,       PCI\VEN_8086&DEV_0D4C&SUBSYS_00008086
+%E0D53NC.DeviceDesc%            = E0D53,       PCI\VEN_8086&DEV_0D53
+%E0D53NC.DeviceDesc%            = E0D53,       PCI\VEN_8086&DEV_0D53&SUBSYS_00008086
+%E15F9NC.DeviceDesc%            = E15F9,       PCI\VEN_8086&DEV_15F9
+%E15F9NC.DeviceDesc%            = E15F9,       PCI\VEN_8086&DEV_15F9&SUBSYS_00008086
+%E15FBNC.DeviceDesc%            = E15FB,       PCI\VEN_8086&DEV_15FB
+%E15FBNC.DeviceDesc%            = E15FB,       PCI\VEN_8086&DEV_15FB&SUBSYS_00008086
+%E15F4NC.DeviceDesc%            = E15F4,       PCI\VEN_8086&DEV_15F4
+%E15F4NC.DeviceDesc%            = E15F4,       PCI\VEN_8086&DEV_15F4&SUBSYS_00008086
+
+[Intel.NTamd64.10.0...18362]
+; DisplayName                   Section        DeviceID
+; -----------                   -------        --------
+%E153ANC.DeviceDesc%            = E153A.19H1,       PCI\VEN_8086&DEV_153A
+%E153ANC.DeviceDesc%            = E153A.19H1,       PCI\VEN_8086&DEV_153A&SUBSYS_00008086
+%E155ANC.DeviceDesc%            = E155A.19H1,       PCI\VEN_8086&DEV_155A
+%E155ANC.DeviceDesc%            = E155A.19H1,       PCI\VEN_8086&DEV_155A&SUBSYS_00008086
+%E15A0NC.DeviceDesc%            = E15A0.19H1,       PCI\VEN_8086&DEV_15A0
+%E15A0NC.DeviceDesc%            = E15A0.19H1,       PCI\VEN_8086&DEV_15A0&SUBSYS_00008086
+%E15A2NC.DeviceDesc%            = E15A2.19H1,       PCI\VEN_8086&DEV_15A2
+%E15A2NC.DeviceDesc%            = E15A2.19H1,       PCI\VEN_8086&DEV_15A2&SUBSYS_00008086
+%E156FNC.DeviceDesc%            = E156F.19H1,       PCI\VEN_8086&DEV_156F
+%E156FNC.DeviceDesc%            = E156F.19H1,       PCI\VEN_8086&DEV_156F&SUBSYS_00008086
+%E15B7NC.DeviceDesc%            = E15B7.19H1,       PCI\VEN_8086&DEV_15B7
+%E15B7NC.DeviceDesc%            = E15B7.19H1,       PCI\VEN_8086&DEV_15B7&SUBSYS_00008086
+%E15B9NC.DeviceDesc%            = E15B9.19H1,       PCI\VEN_8086&DEV_15B9
+%E15B9NC.DeviceDesc%            = E15B9.19H1,       PCI\VEN_8086&DEV_15B9&SUBSYS_00008086
+%E15D7NC.DeviceDesc%            = E15D7.19H1,       PCI\VEN_8086&DEV_15D7
+%E15D7NC.DeviceDesc%            = E15D7.19H1,       PCI\VEN_8086&DEV_15D7&SUBSYS_00008086
+%E15E3NC.DeviceDesc%            = E15E3.19H1,       PCI\VEN_8086&DEV_15E3
+%E15E3NC.DeviceDesc%            = E15E3.19H1,       PCI\VEN_8086&DEV_15E3&SUBSYS_00008086
+%E15BBNC.DeviceDesc%            = E15BB.19H1,       PCI\VEN_8086&DEV_15BB
+%E15BBNC.DeviceDesc%            = E15BB.19H1,       PCI\VEN_8086&DEV_15BB&SUBSYS_00008086
+%E15BDNC.DeviceDesc%            = E15BD.19H1,       PCI\VEN_8086&DEV_15BD
+%E15BDNC.DeviceDesc%            = E15BD.19H1,       PCI\VEN_8086&DEV_15BD&SUBSYS_00008086
+%E15DFNC.DeviceDesc%            = E15DF.19H1,       PCI\VEN_8086&DEV_15DF
+%E15DFNC.DeviceDesc%            = E15DF.19H1,       PCI\VEN_8086&DEV_15DF&SUBSYS_00008086
+%E15E1NC.DeviceDesc%            = E15E1.19H1,       PCI\VEN_8086&DEV_15E1
+%E15E1NC.DeviceDesc%            = E15E1.19H1,       PCI\VEN_8086&DEV_15E1&SUBSYS_00008086
+%E0D4ENC.DeviceDesc%            = E0D4E.19H1,       PCI\VEN_8086&DEV_0D4E
+%E0D4ENC.DeviceDesc%            = E0D4E.19H1,       PCI\VEN_8086&DEV_0D4E&SUBSYS_00008086
+%E0D4CNC.DeviceDesc%            = E0D4C.19H1,       PCI\VEN_8086&DEV_0D4C
+%E0D4CNC.DeviceDesc%            = E0D4C.19H1,       PCI\VEN_8086&DEV_0D4C&SUBSYS_00008086
+%E0D53NC.DeviceDesc%            = E0D53.19H1,       PCI\VEN_8086&DEV_0D53
+%E0D53NC.DeviceDesc%            = E0D53.19H1,       PCI\VEN_8086&DEV_0D53&SUBSYS_00008086
+%E15F9NC.DeviceDesc%            = E15F9.19H1,       PCI\VEN_8086&DEV_15F9
+%E15F9NC.DeviceDesc%            = E15F9.19H1,       PCI\VEN_8086&DEV_15F9&SUBSYS_00008086
+%E15FBNC.DeviceDesc%            = E15FB.19H1,       PCI\VEN_8086&DEV_15FB
+%E15FBNC.DeviceDesc%            = E15FB.19H1,       PCI\VEN_8086&DEV_15FB&SUBSYS_00008086
+%E15F4NC.DeviceDesc%            = E15F4.19H1,       PCI\VEN_8086&DEV_15F4
+%E15F4NC.DeviceDesc%            = E15F4.19H1,       PCI\VEN_8086&DEV_15F4&SUBSYS_00008086
+    
+        
+        
+    
+    
+    
+    
+    
+    
 
 ;===============================================================================
 
@@ -158,9 +319,8 @@ AddReg             = Sips.reg
 AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -190,9 +350,8 @@ AddReg             = Sips.reg
 AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -223,9 +382,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -256,9 +414,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -288,9 +445,8 @@ AddReg             = Sips.reg
 AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -320,9 +476,8 @@ AddReg             = Sips.reg
 AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -353,9 +508,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -386,9 +540,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -419,9 +572,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -452,9 +604,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -485,9 +636,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -518,9 +668,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -551,9 +700,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -584,9 +732,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -617,9 +764,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -650,9 +796,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -683,9 +828,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -716,9 +860,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -749,9 +892,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -782,9 +924,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -815,9 +956,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -848,9 +988,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -881,9 +1020,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -892,6 +1030,262 @@ CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
 AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
 
 [E15E1.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (10) I219-LM
+;
+
+[E0D4E.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4E.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4E.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (14) I219-LM
+;
+
+[E15F9.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15F9.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15F9.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (14) I219-V
+;
+
+[E15FA.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15FA.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15FA.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (13) I219-LM
+;
+
+[E15FB.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15FB.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15FB.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (13) I219-V
+;
+
+[E15FC.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15FC.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15FC.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (15) I219-LM
+;
+
+[E15F4.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15F4.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15F4.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (11) I219-LM
+;
+
+[E0D4C.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4C.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4C.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (12) I219-LM
+;
+
+[E0D53.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D53.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D53.10.0.1.HW]
 Include            = pci.inf
 Needs              = PciIoSpaceNotRequired.HW
 AddReg             = MSI.reg
@@ -914,9 +1308,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -947,9 +1340,8 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -962,8 +1354,1348 @@ Include            = pci.inf
 Needs              = PciIoSpaceNotRequired.HW
 AddReg             = MSI.reg
 
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (10) I219-V
+;
+
+[E0D4F.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4F.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4F.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (11) I219-V
+;
+
+[E0D4D.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4D.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4D.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (12) I219-V
+;
+
+[E0D55.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D55.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D55.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+    
+        
+        
+    
+    
+    
+    
+    
+    
+
+;===============================================================================
+
+;                WINDOWS 10 BUILD 18362 for 64-bit EXTENDED PLATFORMS
+
+;
+;===============================================================================
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection I217-LM
+;
+
+[E153A.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E153A.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E153A.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection I217-V
+;
+
+[E153B.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E153B.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E153B.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection I218-LM
+;
+
+[E155A.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E155A.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E155A.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection I218-V
+;
+
+[E1559.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1559.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1559.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (2) I218-LM
+;
+
+[E15A0.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15A0.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15A0.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (2) I218-V
+;
+
+[E15A1.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15A1.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15A1.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (3) I218-LM
+;
+
+[E15A2.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15A2.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15A2.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (3) I218-V
+;
+
+[E15A3.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15A3.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15A3.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection I219-LM
+;
+
+[E156F.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E156F.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E156F.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (2) I219-LM
+;
+
+[E15B7.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15B7.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15B7.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection I219-V
+;
+
+[E1570.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1570.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1570.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (2) I219-V
+;
+
+[E15B8.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15B8.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15B8.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (3) I219-LM
+;
+
+[E15B9.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15B9.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15B9.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (4) I219-LM
+;
+
+[E15D7.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15D7.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15D7.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (5) I219-LM
+;
+
+[E15E3.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15E3.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15E3.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (4) I219-V
+;
+
+[E15D8.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15D8.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15D8.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (5) I219-V
+;
+
+[E15D6.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15D6.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15D6.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (6) I219-LM
+;
+
+[E15BD.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15BD.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15BD.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (7) I219-LM
+;
+
+[E15BB.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15BB.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15BB.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (6) I219-V
+;
+
+[E15BE.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15BE.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15BE.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (7) I219-V
+;
+
+[E15BC.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15BC.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15BC.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (8) I219-LM
+;
+
+[E15DF.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15DF.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15DF.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (9) I219-LM
+;
+
+[E15E1.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15E1.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15E1.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (10) I219-LM
+;
+
+[E0D4E.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4E.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4E.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (11) I219-LM
+;
+
+[E0D4C.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4C.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4C.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (12) I219-LM
+;
+
+[E0D53.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D53.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D53.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (14) I219-LM
+;
+
+[E15F9.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15F9.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15F9.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (14) I219-V
+;
+
+[E15FA.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15FA.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15FA.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (13) I219-LM
+;
+
+[E15FB.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15FB.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15FB.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (13) I219-V
+;
+
+[E15FC.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15FC.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15FC.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (15) I219-LM
+;
+
+[E15F4.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15F4.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15F4.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (8) I219-V
+;
+
+[E15E0.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15E0.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15E0.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (9) I219-V
+;
+
+[E15E2.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15E2.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15E2.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (10) I219-V
+;
+
+[E0D4F.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4F.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4F.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (11) I219-V
+;
+
+[E0D4D.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4D.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4D.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (12) I219-V
+;
+
+[E0D55.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D55.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D55.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+    
+        
+    
+    
+        
+    
+
 ;===============================================================================
 ;
+
+;                Windows Server 2019 
 
 ;
 ;===============================================================================
@@ -983,10 +2715,9 @@ AddReg             = Sips.reg
 AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1014,10 +2745,9 @@ AddReg             = Powermgmt.reg, WakeOnSlot.reg
 AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1046,10 +2776,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1078,10 +2807,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1109,10 +2837,9 @@ AddReg             = Sips.reg
 AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1140,10 +2867,9 @@ AddReg             = Powermgmt.reg, WakeOnSlot.reg
 AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1172,10 +2898,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1204,10 +2929,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1236,10 +2960,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1268,10 +2991,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1300,10 +3022,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1332,10 +3053,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1364,10 +3084,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1396,10 +3115,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1428,10 +3146,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1460,10 +3177,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1492,10 +3208,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1524,10 +3239,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1556,10 +3270,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1588,10 +3301,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1620,10 +3332,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1652,10 +3363,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1684,10 +3394,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1696,6 +3405,254 @@ CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
 AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
 
 [E15E1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (10) I219-LM
+;
+[E0D4E]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4E.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4E.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (11) I219-LM
+;
+[E0D4C]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4C.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4C.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (12) I219-LM
+;
+[E0D53]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D53.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D53.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (14) I219-LM
+;
+[E15F9]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15F9.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15F9.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (14) I219-V
+;
+[E15FA]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15FA.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15FA.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (13) I219-LM
+;
+[E15FB]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15FB.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15FB.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (13) I219-V
+;
+[E15FC]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15FC.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15FC.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (15) I219-LM
+;
+[E15F4]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15F4.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15F4.HW]
 Include            = pci.inf
 Needs              = PciIoSpaceNotRequired.HW
 AddReg             = MSI.reg
@@ -1716,10 +3673,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1748,10 +3704,9 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
-AddReg             = UninstallW2.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
-CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
 *MediaType         = 0    ; NdisMedium802_3
 *PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
@@ -1760,6 +3715,1297 @@ CopyFiles          = winblue.CopyFiles, UninstallProg.CopyFiles
 AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
 
 [E15E2.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (10) I219-V
+;
+[E0D4F]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4F.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4F.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (11) I219-V
+;
+[E0D4D]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4D.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4D.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (12) I219-V
+;
+[E0D55]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D55.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D55.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+    
+        
+    
+    
+        
+    
+
+;===============================================================================
+;
+
+;                Windows Server 2019 BUILD 18362 for 64-bit EXTENDED PLATFORMS
+
+;
+;===============================================================================
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection I217-LM
+;
+[E153A.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E153A.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E153A.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection I217-V
+;
+[E153B.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E153B.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E153B.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection I218-LM
+;
+[E155A.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E155A.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E155A.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection I218-V
+;
+[E1559.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1559.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1559.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (2) I218-LM
+;
+[E15A0.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15A0.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15A0.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (2) I218-V
+;
+[E15A1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15A1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15A1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (3) I218-LM
+;
+[E15A2.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15A2.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15A2.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (3) I218-V
+;
+[E15A3.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15A3.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15A3.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection I219-LM
+;
+[E156F.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E156F.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E156F.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (2) I219-LM
+;
+[E15B7.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15B7.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15B7.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection I219-V
+;
+[E1570.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1570.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1570.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (2) I219-V
+;
+[E15B8.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15B8.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15B8.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (3) I219-LM
+;
+[E15B9.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15B9.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15B9.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (4) I219-LM
+;
+[E15D7.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15D7.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15D7.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (5) I219-LM
+;
+[E15E3.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15E3.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15E3.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (4) I219-V
+;
+[E15D8.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15D8.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15D8.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (5) I219-V
+;
+[E15D6.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15D6.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15D6.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (6) I219-LM
+;
+[E15BD.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15BD.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15BD.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (7) I219-LM
+;
+[E15BB.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15BB.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15BB.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (6) I219-V
+;
+[E15BE.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15BE.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15BE.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (7) I219-V
+;
+[E15BC.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15BC.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15BC.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (8) I219-LM
+;
+[E15DF.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15DF.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15DF.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (9) I219-LM
+;
+[E15E1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15E1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15E1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (10) I219-LM
+;
+[E0D4E.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4E.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4E.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (11) I219-LM
+;
+[E0D4C.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4C.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4C.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (12) I219-LM
+;
+[E0D53.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D53.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D53.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (8) I219-V
+;
+[E15E0.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15E0.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15E0.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (9) I219-V
+;
+[E15E2.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15E2.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15E2.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (10) I219-V
+;
+[E0D4F.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4F.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4F.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (11) I219-V
+;
+[E0D4D.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D4D.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D4D.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (14) I219-LM
+;
+[E15F9.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15F9.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15F9.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (14) I219-V
+;
+[E15FA.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15FA.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15FA.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (13) I219-LM
+;
+[E15FB.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15FB.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15FB.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (13) I219-V
+;
+[E15FC.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15FC.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15FC.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (15) I219-LM
+;
+[E15F4.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E15F4.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E15F4.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (12) I219-V
+;
+[E0D55.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E0D55.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E0D55.19H1.HW]
 Include            = pci.inf
 Needs              = PciIoSpaceNotRequired.HW
 AddReg             = MSI.reg
@@ -1932,6 +5178,9 @@ HKR,Ndi\Params\ULPMode,                                 Default,                
 HKR,Ndi\Params\ULPMode\Enum,                            "1",                    0, %Enabled%
 HKR,Ndi\Params\ULPMode\Enum,                            "0",                    0, %Disabled%
 
+; Allow host driver to force exit ULP on ME systems
+HKR,,                                                   ForceHostExitUlp,       0, "1"
+
 [VlanId.reg]
 ; VlanId
 HKR, Ndi\params\VlanId,     ParamDesc,       0, %VlanID%
@@ -1941,6 +5190,25 @@ HKR, Ndi\params\VlanId,     min,             0, "0"
 HKR, Ndi\params\VlanId,     max,             0, "4094"
 HKR, Ndi\params\VlanId,     step,            0, "1"
 HKR, Ndi\params\VlanId,     base,            0, "10"
+
+; *PtpHardwareTimestamp
+[PtpHardwareTimestamp.reg]
+HKR, Ndi\Params\*PtpHardwareTimestamp,                  ParamDesc,              0, %PtpHardwareTimestamp%
+HKR, Ndi\Params\*PtpHardwareTimestamp,                  default,                0, "0"
+HKR, Ndi\Params\*PtpHardwareTimestamp\Enum,             "0",                    0, %Disabled%
+HKR, Ndi\Params\*PtpHardwareTimestamp\Enum,             "1",                    0, %Enabled%
+HKR, Ndi\Params\*PtpHardwareTimestamp,                  type,                   0, "enum"
+
+[SoftwareTimestamp.reg]
+HKR, Ndi\params\*SoftwareTimestamp,                     ParamDesc,              0, %SoftwareTimestamp%
+HKR, Ndi\params\*SoftwareTimestamp,                     default,                0, "0"
+HKR, Ndi\params\*SoftwareTimestamp,                     type,                   0, "enum"
+HKR, Ndi\params\*SoftwareTimestamp\enum,                "0",                    0, %Disabled%
+HKR, Ndi\params\*SoftwareTimestamp\enum,                "1",                    0, %SoftwareTimestampRxAll%
+HKR, Ndi\params\*SoftwareTimestamp\enum,                "2",                    0, %SoftwareTimestampTxAll%
+HKR, Ndi\params\*SoftwareTimestamp\enum,                "3",                    0, %SoftwareTimestampRxAllTxAll%
+HKR, Ndi\params\*SoftwareTimestamp\enum,                "4",                    0, %SoftwareTimestampTaggedTx%
+HKR, Ndi\params\*SoftwareTimestamp\enum,                "5",                    0, %SoftwareTimestampRxAllTaggedTx%
 
 [TcpSeg.reg]
 ; *LsoV2IPv4 / *LsoV2IPv6
@@ -2120,41 +5388,6 @@ HKR, "Interrupt Management\MessageSignaledInterruptProperties", MSISupported, 0x
 HKR, "Interrupt Management\MessageSignaledInterruptProperties", MessageNumberLimit, 0x00010001, 1
 
 ;-------------------------------------------------------------------------------
-; Uninstallation
-
-[UninstallW2.reg]
-HKR,Prounstl\SupportedDevices\8086, 153A, 0, "153A"
-HKR,Prounstl\SupportedDevices\8086, 153B, 0, "153B"
-HKR,Prounstl\SupportedDevices\8086, 155A, 0, "155A"
-HKR,Prounstl\SupportedDevices\8086, 1559, 0, "1559"
-HKR,Prounstl\SupportedDevices\8086, 15A0, 0, "15A0"
-HKR,Prounstl\SupportedDevices\8086, 15A1, 0, "15A1"
-HKR,Prounstl\SupportedDevices\8086, 15A2, 0, "15A2"
-HKR,Prounstl\SupportedDevices\8086, 15A3, 0, "15A3"
-HKR,Prounstl\SupportedDevices\8086, 156F, 0, "156F"
-HKR,Prounstl\SupportedDevices\8086, 1570, 0, "1570"
-HKR,Prounstl\SupportedDevices\8086, 15B7, 0, "15B7"
-HKR,Prounstl\SupportedDevices\8086, 15B8, 0, "15B8"
-HKR,Prounstl\SupportedDevices\8086, 15B9, 0, "15B9"
-HKR,Prounstl\SupportedDevices\8086, 15D7, 0, "15D7"
-HKR,Prounstl\SupportedDevices\8086, 15D8, 0, "15D8"
-HKR,Prounstl\SupportedDevices\8086, 15E3, 0, "15E3"
-HKR,Prounstl\SupportedDevices\8086, 15D6, 0, "15D6"
-HKR,Prounstl\SupportedDevices\8086, 15BB, 0, "15BB"
-HKR,Prounstl\SupportedDevices\8086, 15BC, 0, "15BC"
-HKR,Prounstl\SupportedDevices\8086, 15BD, 0, "15BD"
-HKR,Prounstl\SupportedDevices\8086, 15BE, 0, "15BE"
-HKR,Prounstl\SupportedDevices\8086, 15DF, 0, "15DF"
-HKR,Prounstl\SupportedDevices\8086, 15E0, 0, "15E0"
-HKR,Prounstl\SupportedDevices\8086, 15E1, 0, "15E1"
-HKR,Prounstl\SupportedDevices\8086, 15E2, 0, "15E2"
-HKR,Prounstl\Dins, e1d68x64.din, 0, "8257x.Uninstall"
-HKR,Prounstl\Services, e1dexpress, 0, "e1d68x64.sys"
-
-[UninstallProg.CopyFiles]
-e1d68x64.din,,,2
-
-;-------------------------------------------------------------------------------
 ; WinVista copy files
 ;
 
@@ -2177,8 +5410,11 @@ LoadOrderGroup  = NDIS
 AddReg             = winblue.AddEventLog.reg
 
 [winblue.AddEventLog.reg]
-HKR, , EventMessageFile, 0x00020000, %EventLogMessageDllPath%
+HKR, , EventMessageFile, 0x00020000, "%11%\netevent.dll;%13%\e1dmsg.dll"
 HKR, , TypesSupported,   0x00010001, 7
+
+[MessageDll.CopyFiles]
+e1dmsg.dll
 
 [CoInKS.reg]
 HKR,,                                          CoInstallFlag,      0x00010001, 0x08203101
@@ -2189,7 +5425,7 @@ HKR,,                                          CoInstallFlag,      0x00010001, 0
 [DestinationDirs]
 DefaultDestDir                = 13
 winblue.CopyFiles          = 13
-UninstallProg.CopyFiles          = 13
+MessageDll.CopyFiles          = 13
 
 [SourceDisksNames]
 ;
@@ -2202,7 +5438,6 @@ UninstallProg.CopyFiles          = 13
 ; filename_on_source = diskID[, [subdir][, size]]
 ;
 e1dmsg.dll   = 1,,
-e1d68x64.din = 1,,
 e1d68x64.sys = 1,, ; on distribution disk 1
 
 ;-------------------------------------------------------------------------------
@@ -2291,8 +5526,14 @@ EEELinkAdvertisement            = "Energy Efficient Ethernet"
 ReduceSpeedOnPowerDown          = "Reduce Speed On Power Down"
 VlanID                          = "VLAN ID"
 UltraLowPowerMode               = "Ultra Low Power Mode"
+PtpHardwareTimestamp            = "PTP Hardware Timestamp"
+SoftwareTimestamp               = "Software Timestamp"
+SoftwareTimestampRxAll          = "RxAll"
+SoftwareTimestampTxAll          = "TxAll"
+SoftwareTimestampRxAllTxAll     = "RxAll & TxAll"
+SoftwareTimestampTaggedTx       = "TaggedTx"
+SoftwareTimestampRxAllTaggedTx  = "RxAll & TaggedTx"
 Intel                           = "Intel"
-EventLogMessageDllPath          = "%SystemRoot%\System32\netevent.dll;%SystemRoot%\System32\drivers\e1d68x64.sys"
 e1dExpress.Service.DispName     = "Intel(R) PRO/1000 PCI Express Network Connection Driver D"
 DISKNAME                        = "Intel(R) PRO/1000 Driver Disk"
 
@@ -2323,6 +5564,17 @@ E15DFNC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-LM"
 E15E0NC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-V"
 E15E1NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-LM"
 E15E2NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-V"
+E0D4ENC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-LM"
+E0D4FNC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-V"
+E0D4CNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-LM"
+E0D4DNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-V"
+E0D53NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-LM"
+E0D55NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-V"
+E15FBNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-LM"
+E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
+E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
+E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
+E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -2406,8 +5658,14 @@ EEELinkAdvertisement            ="Ω⁄ƒ‹“‘Ã´Õ¯"
 ReduceSpeedOnPowerDown          ="µÁ‘¥πÿ±’ ±ΩµµÕÀŸ∂»"
 VlanID                          ="VLAN ID"
 UltraLowPowerMode               ="≥¨µÕπ¶∫ƒƒ£ Ω"
+PtpHardwareTimestamp            ="PTP Hardware Timestamp"
+SoftwareTimestamp               ="Software Timestamp"
+SoftwareTimestampRxAll          ="RxAll"
+SoftwareTimestampTxAll          ="TxAll"
+SoftwareTimestampRxAllTxAll     ="RxAll & TxAll"
+SoftwareTimestampTaggedTx       ="TaggedTx"
+SoftwareTimestampRxAllTaggedTx  ="RxAll & TaggedTx"
 Intel                           = "Intel"
-EventLogMessageDllPath          = "%SystemRoot%\System32\netevent.dll;%SystemRoot%\System32\e1dmsg.dll"
 e1dExpress.Service.DispName     = "Intel(R) PRO/1000 PCI Express Network Connection Driver D"
 DISKNAME                        = "Intel(R) PRO/1000 Driver Disk"
 
@@ -2438,6 +5696,17 @@ E15DFNC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-LM"
 E15E0NC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-V"
 E15E1NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-LM"
 E15E2NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-V"
+E0D4ENC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-LM"
+E0D4FNC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-V"
+E0D4CNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-LM"
+E0D4DNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-V"
+E0D53NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-LM"
+E0D55NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-V"
+E15FBNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-LM"
+E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
+E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
+E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
+E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -2521,8 +5790,14 @@ EEELinkAdvertisement            ="¶≥Ø‡∑ΩÆƒ≤v™∫§A§”∫Ù∏Ù"
 ReduceSpeedOnPowerDown          ="≠∞ßC∂}æ˜≥t´◊"
 VlanID                          ="VLAN ID"
 UltraLowPowerMode               ="∂WßC•\Ø”º“¶°"
+PtpHardwareTimestamp            ="PTP Hardware Timestamp"
+SoftwareTimestamp               ="Software Timestamp"
+SoftwareTimestampRxAll          ="RxAll"
+SoftwareTimestampTxAll          ="TxAll"
+SoftwareTimestampRxAllTxAll     ="RxAll & TxAll"
+SoftwareTimestampTaggedTx       ="TaggedTx"
+SoftwareTimestampRxAllTaggedTx  ="RxAll & TaggedTx"
 Intel                           = "Intel"
-EventLogMessageDllPath          = "%SystemRoot%\System32\netevent.dll;%SystemRoot%\System32\e1dmsg.dll"
 e1dExpress.Service.DispName     = "Intel(R) PRO/1000 PCI Express Network Connection Driver D"
 DISKNAME                        = "Intel(R) PRO/1000 Driver Disk"
 
@@ -2553,6 +5828,17 @@ E15DFNC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-LM"
 E15E0NC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-V"
 E15E1NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-LM"
 E15E2NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-V"
+E0D4ENC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-LM"
+E0D4FNC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-V"
+E0D4CNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-LM"
+E0D4DNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-V"
+E0D53NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-LM"
+E0D55NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-V"
+E15FBNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-LM"
+E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
+E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
+E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
+E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -2636,8 +5922,14 @@ EEELinkAdvertisement            ="Energieeffizientes Ethernet"
 ReduceSpeedOnPowerDown          ="Geschw. beim Abschalten reduzieren"
 VlanID                          ="VLAN-ID"
 UltraLowPowerMode               ="ULP-Modus"
+PtpHardwareTimestamp            ="PTP Hardware Timestamp"
+SoftwareTimestamp               ="Software Timestamp"
+SoftwareTimestampRxAll          ="RxAll"
+SoftwareTimestampTxAll          ="TxAll"
+SoftwareTimestampRxAllTxAll     ="RxAll & TxAll"
+SoftwareTimestampTaggedTx       ="TaggedTx"
+SoftwareTimestampRxAllTaggedTx  ="RxAll & TaggedTx"
 Intel                           = "Intel"
-EventLogMessageDllPath          = "%SystemRoot%\System32\netevent.dll;%SystemRoot%\System32\e1dmsg.dll"
 e1dExpress.Service.DispName     = "Intel(R) PRO/1000 PCI Express Network Connection Driver D"
 DISKNAME                        = "Intel(R) PRO/1000 Driver Disk"
 
@@ -2668,6 +5960,17 @@ E15DFNC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-LM"
 E15E0NC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-V"
 E15E1NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-LM"
 E15E2NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-V"
+E0D4ENC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-LM"
+E0D4FNC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-V"
+E0D4CNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-LM"
+E0D4DNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-V"
+E0D53NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-LM"
+E0D55NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-V"
+E15FBNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-LM"
+E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
+E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
+E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
+E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -2751,8 +6054,14 @@ EEELinkAdvertisement            ="Ethernet con uso eficiente de energÌa"
 ReduceSpeedOnPowerDown          ="Reducir velocidad al apagar"
 VlanID                          ="ID de VLAN"
 UltraLowPowerMode               ="Modo de EnergÌa ultrabaja"
+PtpHardwareTimestamp            ="PTP Hardware Timestamp"
+SoftwareTimestamp               ="Software Timestamp"
+SoftwareTimestampRxAll          ="RxAll"
+SoftwareTimestampTxAll          ="TxAll"
+SoftwareTimestampRxAllTxAll     ="RxAll & TxAll"
+SoftwareTimestampTaggedTx       ="TaggedTx"
+SoftwareTimestampRxAllTaggedTx  ="RxAll & TaggedTx"
 Intel                           = "Intel"
-EventLogMessageDllPath          = "%SystemRoot%\System32\netevent.dll;%SystemRoot%\System32\e1dmsg.dll"
 e1dExpress.Service.DispName     = "Intel(R) PRO/1000 PCI Express Network Connection Driver D"
 DISKNAME                        = "Intel(R) PRO/1000 Driver Disk"
 
@@ -2783,6 +6092,17 @@ E15DFNC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-LM"
 E15E0NC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-V"
 E15E1NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-LM"
 E15E2NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-V"
+E0D4ENC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-LM"
+E0D4FNC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-V"
+E0D4CNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-LM"
+E0D4DNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-V"
+E0D53NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-LM"
+E0D55NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-V"
+E15FBNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-LM"
+E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
+E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
+E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
+E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -2866,8 +6186,14 @@ EEELinkAdvertisement            ="Ethernet Èconome en Ènergie (EEE)"
 ReduceSpeedOnPowerDown          ="RÈduire la vitesse ‡ la mise hors tension"
 VlanID                          ="ID du VLAN"
 UltraLowPowerMode               ="Mode ultra basse consommation"
+PtpHardwareTimestamp            ="PTP Hardware Timestamp"
+SoftwareTimestamp               ="Software Timestamp"
+SoftwareTimestampRxAll          ="RxAll"
+SoftwareTimestampTxAll          ="TxAll"
+SoftwareTimestampRxAllTxAll     ="RxAll & TxAll"
+SoftwareTimestampTaggedTx       ="TaggedTx"
+SoftwareTimestampRxAllTaggedTx  ="RxAll & TaggedTx"
 Intel                           = "Intel"
-EventLogMessageDllPath          = "%SystemRoot%\System32\netevent.dll;%SystemRoot%\System32\e1dmsg.dll"
 e1dExpress.Service.DispName     = "Intel(R) PRO/1000 PCI Express Network Connection Driver D"
 DISKNAME                        = "Intel(R) PRO/1000 Driver Disk"
 
@@ -2898,6 +6224,17 @@ E15DFNC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-LM"
 E15E0NC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-V"
 E15E1NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-LM"
 E15E2NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-V"
+E0D4ENC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-LM"
+E0D4FNC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-V"
+E0D4CNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-LM"
+E0D4DNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-V"
+E0D53NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-LM"
+E0D55NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-V"
+E15FBNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-LM"
+E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
+E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
+E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
+E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -2981,8 +6318,14 @@ EEELinkAdvertisement            ="Ethernet a basso consumo energetico"
 ReduceSpeedOnPowerDown          ="Riduci velocit‡ allo spegnimento"
 VlanID                          ="ID VLAN"
 UltraLowPowerMode               ="Usa modalit‡ Ultra Low Power"
+PtpHardwareTimestamp            ="PTP Hardware Timestamp"
+SoftwareTimestamp               ="Software Timestamp"
+SoftwareTimestampRxAll          ="RxAll"
+SoftwareTimestampTxAll          ="TxAll"
+SoftwareTimestampRxAllTxAll     ="RxAll & TxAll"
+SoftwareTimestampTaggedTx       ="TaggedTx"
+SoftwareTimestampRxAllTaggedTx  ="RxAll & TaggedTx"
 Intel                           = "Intel"
-EventLogMessageDllPath          = "%SystemRoot%\System32\netevent.dll;%SystemRoot%\System32\e1dmsg.dll"
 e1dExpress.Service.DispName     = "Intel(R) PRO/1000 PCI Express Network Connection Driver D"
 DISKNAME                        = "Intel(R) PRO/1000 Driver Disk"
 
@@ -3013,6 +6356,17 @@ E15DFNC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-LM"
 E15E0NC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-V"
 E15E1NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-LM"
 E15E2NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-V"
+E0D4ENC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-LM"
+E0D4FNC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-V"
+E0D4CNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-LM"
+E0D4DNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-V"
+E0D53NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-LM"
+E0D55NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-V"
+E15FBNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-LM"
+E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
+E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
+E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
+E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -3096,8 +6450,14 @@ EEELinkAdvertisement            ="è»ìdóÕÉCÅ[ÉTÉlÉbÉg"
 ReduceSpeedOnPowerDown          ="ÉpÉèÅ[É_ÉEÉìéûÇ…ë¨ìxÇóéÇ∆Ç∑"
 VlanID                          ="VLAN ID"
 UltraLowPowerMode               ="í¥í·è¡îÔìdóÕÉÇÅ[Éh"
+PtpHardwareTimestamp            ="PTP Hardware Timestamp"
+SoftwareTimestamp               ="Software Timestamp"
+SoftwareTimestampRxAll          ="RxAll"
+SoftwareTimestampTxAll          ="TxAll"
+SoftwareTimestampRxAllTxAll     ="RxAll & TxAll"
+SoftwareTimestampTaggedTx       ="TaggedTx"
+SoftwareTimestampRxAllTaggedTx  ="RxAll & TaggedTx"
 Intel                           = "Intel"
-EventLogMessageDllPath          = "%SystemRoot%\System32\netevent.dll;%SystemRoot%\System32\e1dmsg.dll"
 e1dExpress.Service.DispName     = "Intel(R) PRO/1000 PCI Express Network Connection Driver D"
 DISKNAME                        = "Intel(R) PRO/1000 Driver Disk"
 
@@ -3128,6 +6488,17 @@ E15DFNC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-LM"
 E15E0NC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-V"
 E15E1NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-LM"
 E15E2NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-V"
+E0D4ENC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-LM"
+E0D4FNC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-V"
+E0D4CNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-LM"
+E0D4DNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-V"
+E0D53NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-LM"
+E0D55NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-V"
+E15FBNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-LM"
+E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
+E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
+E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
+E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -3211,8 +6582,14 @@ EEELinkAdvertisement            ="ø°≥ ¡ˆ »ø¿≤¿˚¿Œ ¿Ã¥ı≥›"
 ReduceSpeedOnPowerDown          ="¿¸ø¯ ¬˜¥‹ Ω√ º”µµ ∞®º“"
 VlanID                          ="VLAN ID"
 UltraLowPowerMode               ="√ ¿˙¿¸∑¬ ∏µÂ"
+PtpHardwareTimestamp            ="PTP Hardware Timestamp"
+SoftwareTimestamp               ="Software Timestamp"
+SoftwareTimestampRxAll          ="RxAll"
+SoftwareTimestampTxAll          ="TxAll"
+SoftwareTimestampRxAllTxAll     ="RxAll & TxAll"
+SoftwareTimestampTaggedTx       ="TaggedTx"
+SoftwareTimestampRxAllTaggedTx  ="RxAll & TaggedTx"
 Intel                           = "Intel"
-EventLogMessageDllPath          = "%SystemRoot%\System32\netevent.dll;%SystemRoot%\System32\e1dmsg.dll"
 e1dExpress.Service.DispName     = "Intel(R) PRO/1000 PCI Express Network Connection Driver D"
 DISKNAME                        = "Intel(R) PRO/1000 Driver Disk"
 
@@ -3243,6 +6620,17 @@ E15DFNC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-LM"
 E15E0NC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-V"
 E15E1NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-LM"
 E15E2NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-V"
+E0D4ENC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-LM"
+E0D4FNC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-V"
+E0D4CNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-LM"
+E0D4DNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-V"
+E0D53NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-LM"
+E0D55NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-V"
+E15FBNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-LM"
+E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
+E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
+E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
+E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -3296,8 +6684,8 @@ Conservative_Scaling            ="Escala conservadora"
 2queues                         ="2 filas"
 On                              ="Ligado"
 Off                             ="Desligado"
-Enabled                         ="Habilitada"
-Disabled                        ="Desabilitado"
+Enabled                         ="Habilitado"
+Disabled                        ="Desabilitada"
 Bytes4088                       ="4088 Bytes"
 Bytes9014                       ="9014 Bytes"
 LAA                             ="EndereÁo administrado localmente (LAA)"
@@ -3326,8 +6714,14 @@ EEELinkAdvertisement            ="Ethernet com uso eficiente de energia"
 ReduceSpeedOnPowerDown          ="Reduzir a velocidade com o desligamento"
 VlanID                          ="ID de VLAN"
 UltraLowPowerMode               ="Modo Ultra Low Power"
+PtpHardwareTimestamp            ="PTP Hardware Timestamp"
+SoftwareTimestamp               ="Software Timestamp"
+SoftwareTimestampRxAll          ="RxAll"
+SoftwareTimestampTxAll          ="TxAll"
+SoftwareTimestampRxAllTxAll     ="RxAll & TxAll"
+SoftwareTimestampTaggedTx       ="TaggedTx"
+SoftwareTimestampRxAllTaggedTx  ="RxAll & TaggedTx"
 Intel                           = "Intel"
-EventLogMessageDllPath          = "%SystemRoot%\System32\netevent.dll;%SystemRoot%\System32\e1dmsg.dll"
 e1dExpress.Service.DispName     = "Intel(R) PRO/1000 PCI Express Network Connection Driver D"
 DISKNAME                        = "Intel(R) PRO/1000 Driver Disk"
 
@@ -3358,6 +6752,17 @@ E15DFNC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-LM"
 E15E0NC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-V"
 E15E1NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-LM"
 E15E2NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-V"
+E0D4ENC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-LM"
+E0D4FNC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-V"
+E0D4CNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-LM"
+E0D4DNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-V"
+E0D53NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-LM"
+E0D55NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-V"
+E15FBNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-LM"
+E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
+E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
+E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
+E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -3441,8 +6846,14 @@ EEELinkAdvertisement            ="¶≥Ø‡∑ΩÆƒ≤v™∫§A§”∫Ù∏Ù"
 ReduceSpeedOnPowerDown          ="≠∞ßC∂}æ˜≥t´◊"
 VlanID                          ="VLAN ID"
 UltraLowPowerMode               ="∂WßC•\Ø”º“¶°"
+PtpHardwareTimestamp            ="PTP Hardware Timestamp"
+SoftwareTimestamp               ="Software Timestamp"
+SoftwareTimestampRxAll          ="RxAll"
+SoftwareTimestampTxAll          ="TxAll"
+SoftwareTimestampRxAllTxAll     ="RxAll & TxAll"
+SoftwareTimestampTaggedTx       ="TaggedTx"
+SoftwareTimestampRxAllTaggedTx  ="RxAll & TaggedTx"
 Intel                           = "Intel"
-EventLogMessageDllPath          = "%SystemRoot%\System32\netevent.dll;%SystemRoot%\System32\e1dmsg.dll"
 e1dExpress.Service.DispName     = "Intel(R) PRO/1000 PCI Express Network Connection Driver D"
 DISKNAME                        = "Intel(R) PRO/1000 Driver Disk"
 
@@ -3473,6 +6884,17 @@ E15DFNC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-LM"
 E15E0NC.DeviceDesc              = "Intel(R) Ethernet Connection (8) I219-V"
 E15E1NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-LM"
 E15E2NC.DeviceDesc              = "Intel(R) Ethernet Connection (9) I219-V"
+E0D4ENC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-LM"
+E0D4FNC.DeviceDesc              = "Intel(R) Ethernet Connection (10) I219-V"
+E0D4CNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-LM"
+E0D4DNC.DeviceDesc              = "Intel(R) Ethernet Connection (11) I219-V"
+E0D53NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-LM"
+E0D55NC.DeviceDesc              = "Intel(R) Ethernet Connection (12) I219-V"
+E15FBNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-LM"
+E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
+E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
+E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
+E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
