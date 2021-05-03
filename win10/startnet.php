@@ -3,29 +3,32 @@ header("Content-Type: text/dos");
 $SELF="http://".$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']);
 $mac=$_GET["mac"];
 $pciid=$_GET["pciid"];
+$drvload=isset($_GET["drvload"]) ? $_GET["drvload"] : "";
 ?>@TITLE Bootstrap...
 :: start extra cmd for manipulations
 @start cmd
 >cleandisk.cmd ECHO (ECHO select disk 0 ^&^& ECHO clean) ^| diskpart
 <?php
-if ($pciid == "808615bb" || $pciid == "808615be") {
+if (!empty($drvload)) {
     echo "@echo Loading extra drivers ${pciid}...\r\n";
-    echo "drvload e1d68x64.inf\r\n";
+    echo "drvload ${drvload}\r\n";
 } else if (strpos($pciid, "1af4") === 0) {
     echo "@echo Loading extra drivers ${pciid}...\r\n";
+    $drvload="netkvm.inf";
     echo "drvload netkvm.inf\r\n";
     echo "drvload vioscsi.inf\r\n";
     echo "drvload viostor.inf\r\n";
 } ?>
 :: wpeinit loads the shell
 wpeinit
+:: make sure we have dns. net mount failed if this was before wpeinit
+start net start dnscache
 :: set high performance
 @powercfg /s 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
-:: make sure we have dns
-start net start dnscache
 :: Make sure network is up before continuing
 wpeutil WaitForNetwork
-@ping 127.0.0.1 -n 2 >NUL
+ipconfig /renew >NUL
+::@ping 127.0.0.1 -n 2 >NUL
 
 @SET COUNT=0
 
@@ -50,7 +53,13 @@ IF %EL% NEQ 0 GOTO :FAIL
 @echo run .NET 3.5 install in offline mode
 @for %%a in (C D E F G H I J K L M N O P Q R S T U V W Y Z) do @if exist %%a:\$WINDOWS.~BT\ set DRIVE=%%a
 @echo The Drive is: %DRIVE%
+<?php
+if (!empty($drvload)) {
+  echo "@echo Todo copy drivers to: %DRIVE%\r\n";
+  echo "Dism /Image:%DRIVE%:\ /Add-Driver /Driver:$drvload\r\n";
+} ?>
 Dism /Image:%DRIVE%:\ /enable-feature /featurename:NetFx3 /All /Source:"s:\sources en\sources\sxs" /LimitAccess /NoRestart /LogLevel:4
+::pause
 @SET EL=%ERRORLEVEL%
 @echo Returned with %EL%
 IF %EL% NEQ 0 GOTO :FAIL

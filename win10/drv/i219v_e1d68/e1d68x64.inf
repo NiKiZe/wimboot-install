@@ -38,7 +38,7 @@ Class       = Net
 ClassGUID   = {4d36e972-e325-11ce-bfc1-08002be10318}
 Provider    = %Intel%
 CatalogFile = e1d68x64.cat
-DriverVer = 07/25/2019,12.18.9.10
+DriverVer = 04/20/2020,12.18.9.23
 
 [Manufacturer]
 %Intel%     = Intel, NTamd64.10.0, NTamd64.10.0.1,  NTamd64.10.0...18362, NTamd64.10.0.1..18362
@@ -125,6 +125,14 @@ ExcludeFromSelect = \
 %E15FCNC.DeviceDesc%            = E15FC.10.0.1,       PCI\VEN_8086&DEV_15FC&SUBSYS_00008086
 %E15F4NC.DeviceDesc%            = E15F4.10.0.1,       PCI\VEN_8086&DEV_15F4
 %E15F4NC.DeviceDesc%            = E15F4.10.0.1,       PCI\VEN_8086&DEV_15F4&SUBSYS_00008086
+%E1A1ENC.DeviceDesc%            = E1A1E.10.0.1,       PCI\VEN_8086&DEV_1A1E
+%E1A1ENC.DeviceDesc%            = E1A1E.10.0.1,       PCI\VEN_8086&DEV_1A1E&SUBSYS_00008086
+%E1A1FNC.DeviceDesc%            = E1A1F.10.0.1,       PCI\VEN_8086&DEV_1A1F
+%E1A1FNC.DeviceDesc%            = E1A1F.10.0.1,       PCI\VEN_8086&DEV_1A1F&SUBSYS_00008086
+%E1A1CNC.DeviceDesc%            = E1A1C.10.0.1,       PCI\VEN_8086&DEV_1A1C
+%E1A1CNC.DeviceDesc%            = E1A1C.10.0.1,       PCI\VEN_8086&DEV_1A1C&SUBSYS_00008086
+%E1A1DNC.DeviceDesc%            = E1A1D.10.0.1,       PCI\VEN_8086&DEV_1A1D
+%E1A1DNC.DeviceDesc%            = E1A1D.10.0.1,       PCI\VEN_8086&DEV_1A1D&SUBSYS_00008086
 
 [Intel.NTamd64.10.0.1..18362]
 ; DisplayName                   Section              DeviceID
@@ -201,6 +209,14 @@ ExcludeFromSelect = \
 %E15FCNC.DeviceDesc%            = E15FC.10.0.1.19H1,       PCI\VEN_8086&DEV_15FC&SUBSYS_00008086
 %E15F4NC.DeviceDesc%            = E15F4.10.0.1.19H1,       PCI\VEN_8086&DEV_15F4
 %E15F4NC.DeviceDesc%            = E15F4.10.0.1.19H1,       PCI\VEN_8086&DEV_15F4&SUBSYS_00008086
+%E1A1ENC.DeviceDesc%            = E1A1E.10.0.1.19H1,       PCI\VEN_8086&DEV_1A1E
+%E1A1ENC.DeviceDesc%            = E1A1E.10.0.1.19H1,       PCI\VEN_8086&DEV_1A1E&SUBSYS_00008086
+%E1A1FNC.DeviceDesc%            = E1A1F.10.0.1.19H1,       PCI\VEN_8086&DEV_1A1F
+%E1A1FNC.DeviceDesc%            = E1A1F.10.0.1.19H1,       PCI\VEN_8086&DEV_1A1F&SUBSYS_00008086
+%E1A1CNC.DeviceDesc%            = E1A1C.10.0.1.19H1,       PCI\VEN_8086&DEV_1A1C
+%E1A1CNC.DeviceDesc%            = E1A1C.10.0.1.19H1,       PCI\VEN_8086&DEV_1A1C&SUBSYS_00008086
+%E1A1DNC.DeviceDesc%            = E1A1D.10.0.1.19H1,       PCI\VEN_8086&DEV_1A1D
+%E1A1DNC.DeviceDesc%            = E1A1D.10.0.1.19H1,       PCI\VEN_8086&DEV_1A1D&SUBSYS_00008086
 
 [Intel.NTamd64.10.0]
 ; DisplayName                   Section        DeviceID
@@ -243,6 +259,10 @@ ExcludeFromSelect = \
 %E15FBNC.DeviceDesc%            = E15FB,       PCI\VEN_8086&DEV_15FB&SUBSYS_00008086
 %E15F4NC.DeviceDesc%            = E15F4,       PCI\VEN_8086&DEV_15F4
 %E15F4NC.DeviceDesc%            = E15F4,       PCI\VEN_8086&DEV_15F4&SUBSYS_00008086
+%E1A1ENC.DeviceDesc%            = E1A1E,       PCI\VEN_8086&DEV_1A1E
+%E1A1ENC.DeviceDesc%            = E1A1E,       PCI\VEN_8086&DEV_1A1E&SUBSYS_00008086
+%E1A1CNC.DeviceDesc%            = E1A1C,       PCI\VEN_8086&DEV_1A1C
+%E1A1CNC.DeviceDesc%            = E1A1C,       PCI\VEN_8086&DEV_1A1C&SUBSYS_00008086
 
 [Intel.NTamd64.10.0...18362]
 ; DisplayName                   Section        DeviceID
@@ -285,6 +305,10 @@ ExcludeFromSelect = \
 %E15FBNC.DeviceDesc%            = E15FB.19H1,       PCI\VEN_8086&DEV_15FB&SUBSYS_00008086
 %E15F4NC.DeviceDesc%            = E15F4.19H1,       PCI\VEN_8086&DEV_15F4
 %E15F4NC.DeviceDesc%            = E15F4.19H1,       PCI\VEN_8086&DEV_15F4&SUBSYS_00008086
+%E1A1ENC.DeviceDesc%            = E1A1E.19H1,       PCI\VEN_8086&DEV_1A1E
+%E1A1ENC.DeviceDesc%            = E1A1E.19H1,       PCI\VEN_8086&DEV_1A1E&SUBSYS_00008086
+%E1A1CNC.DeviceDesc%            = E1A1C.19H1,       PCI\VEN_8086&DEV_1A1C
+%E1A1CNC.DeviceDesc%            = E1A1C.19H1,       PCI\VEN_8086&DEV_1A1C&SUBSYS_00008086
     
         
         
@@ -572,6 +596,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -604,6 +629,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -636,6 +662,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -668,6 +695,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -700,6 +728,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -732,6 +761,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -764,6 +794,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -796,6 +827,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -828,6 +860,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -860,6 +893,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -892,6 +926,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -924,6 +959,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -956,6 +992,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -988,6 +1025,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1020,6 +1058,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1052,6 +1091,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1084,6 +1124,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1116,6 +1157,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1148,6 +1190,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1180,6 +1223,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1212,6 +1256,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1222,6 +1267,138 @@ CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
 
 [E15F4.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (16) I219-LM
+;
+
+[E1A1E.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1E.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1E.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (16) I219-V
+;
+
+[E1A1F.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1F.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1F.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (17) I219-LM
+;
+
+[E1A1C.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1C.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1C.10.0.1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (17) I219-V
+;
+
+[E1A1D.10.0.1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1D.10.0.1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1D.10.0.1.HW]
 Include            = pci.inf
 Needs              = PciIoSpaceNotRequired.HW
 AddReg             = MSI.reg
@@ -1244,6 +1421,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1276,6 +1454,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1308,6 +1487,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1340,6 +1520,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1372,6 +1553,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1404,6 +1586,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1436,6 +1619,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 *IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
@@ -1752,6 +1936,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -1786,6 +1971,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -1820,6 +2006,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -1854,6 +2041,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -1888,6 +2076,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -1922,6 +2111,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -1956,6 +2146,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -1990,6 +2181,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2024,6 +2216,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2058,6 +2251,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2092,6 +2286,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2126,6 +2321,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2160,6 +2356,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2194,6 +2391,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2228,6 +2426,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2262,6 +2461,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2296,6 +2496,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2330,6 +2531,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2364,6 +2566,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2398,6 +2601,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2432,6 +2636,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2466,6 +2671,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2500,6 +2706,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2512,6 +2719,146 @@ CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
 
 [E15F4.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (16) I219-LM
+;
+
+[E1A1E.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1E.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1E.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (16) I219-V
+;
+
+[E1A1F.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1F.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1F.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (17) I219-LM
+;
+
+[E1A1C.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1C.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1C.10.0.1.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (17) I219-V
+;
+
+[E1A1D.10.0.1.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = RTD3.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1D.10.0.1.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1D.10.0.1.19H1.HW]
 Include            = pci.inf
 Needs              = PciIoSpaceNotRequired.HW
 AddReg             = MSI.reg
@@ -2534,6 +2881,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2568,6 +2916,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2602,6 +2951,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2636,6 +2986,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2670,6 +3021,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = PtpHardwareTimestamp.reg
 AddReg             = SoftwareTimestamp.reg
@@ -2960,6 +3312,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -2991,6 +3344,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3022,6 +3376,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3053,6 +3408,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3084,6 +3440,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3115,6 +3472,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3146,6 +3504,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3177,6 +3536,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3208,6 +3568,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3239,6 +3600,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3270,6 +3632,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3301,6 +3664,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3332,6 +3696,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3363,6 +3728,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3394,6 +3760,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3425,6 +3792,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3456,6 +3824,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3487,6 +3856,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3518,6 +3888,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3549,6 +3920,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3580,6 +3952,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3611,6 +3984,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3642,6 +4016,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3653,6 +4028,134 @@ CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
 
 [E15F4.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (16) I219-LM
+;
+[E1A1E]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1E.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1E.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (16) I219-V
+;
+[E1A1F]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1F.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1F.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (17) I219-LM
+;
+[E1A1C]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1C.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1C.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (17) I219-V
+;
+[E1A1D]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Sips.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1D.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1D.HW]
 Include            = pci.inf
 Needs              = PciIoSpaceNotRequired.HW
 AddReg             = MSI.reg
@@ -3673,6 +4176,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3704,6 +4208,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3735,6 +4240,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3766,6 +4272,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -3797,6 +4304,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
@@ -4102,6 +4610,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4135,6 +4644,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4168,6 +4678,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4201,6 +4712,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4234,6 +4746,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4267,6 +4780,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4300,6 +4814,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4333,6 +4848,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4366,6 +4882,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4399,6 +4916,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4432,6 +4950,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4465,6 +4984,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4498,6 +5018,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4531,6 +5052,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4564,6 +5086,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4597,6 +5120,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4630,6 +5154,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4663,6 +5188,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4696,6 +5222,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4729,6 +5256,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4762,6 +5290,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4795,6 +5324,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4828,6 +5358,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4861,6 +5392,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4894,6 +5426,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4927,6 +5460,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4960,6 +5494,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -4973,6 +5508,142 @@ CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
 AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
 
 [E15F4.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (16) I219-LM
+;
+[E1A1E.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1E.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1E.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (16) I219-V
+;
+[E1A1F.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1F.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1F.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (17) I219-LM
+;
+[E1A1C.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1C.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1C.19H1.HW]
+Include            = pci.inf
+Needs              = PciIoSpaceNotRequired.HW
+AddReg             = MSI.reg
+
+;-------------------------------------------------------------------------------
+; Intel(R) Ethernet Connection (17) I219-V
+;
+[E1A1D.19H1]
+Characteristics    = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType            = 5    ; PCI
+DelReg             = Advanced.DelReg
+AddReg             = e1d.reg, TcpSeg.reg, JumboPacket.reg, SVOFFMode.reg
+AddReg             = Copper.reg, Copper1000.reg, Autoneg10100.reg
+AddReg             = AcDcLink.reg
+AddReg             = Sips.reg
+AddReg             = Powermgmt.reg, WakeOnSlot.reg
+AddReg             = Po.reg
+AddReg             = RSS.reg
+AddReg             = EEE.reg
+AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
+AddReg             = CoInKS.reg
+AddReg             = VlanId.reg
+AddReg             = PtpHardwareTimestamp.reg
+AddReg             = SoftwareTimestamp.reg
+CopyFiles          = winblue.CopyFiles, MessageDll.CopyFiles
+*IfType            = 6    ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0    ; NdisMedium802_3
+*PhysicalMediaType = 14 ; NdisPhysicalMedium802_3
+
+[E1A1D.19H1.Services]
+AddService = e1dexpress, 2, winblue.Service, winblue.EventLog
+
+[E1A1D.19H1.HW]
 Include            = pci.inf
 Needs              = PciIoSpaceNotRequired.HW
 AddReg             = MSI.reg
@@ -4993,6 +5664,7 @@ AddReg             = Po.reg
 AddReg             = RSS.reg
 AddReg             = EEE.reg
 AddReg             = ulp.reg
+AddReg             = DisablePLLShut.reg
 AddReg             = CoInKS.reg
 AddReg             = VlanId.reg
 AddReg             = PtpHardwareTimestamp.reg
@@ -5177,6 +5849,11 @@ HKR,Ndi\Params\ULPMode,                                 Type,                   
 HKR,Ndi\Params\ULPMode,                                 Default,                0, "1"
 HKR,Ndi\Params\ULPMode\Enum,                            "1",                    0, %Enabled%
 HKR,Ndi\Params\ULPMode\Enum,                            "0",                    0, %Disabled%
+
+
+[DisablePLLShut.reg]
+HKR,,                                                   I218DisablePLLShut,       0, "1"
+HKR,,                                                   I218DisablePLLShutGiga,   0, "1"
 
 ; Allow host driver to force exit ULP on ME systems
 HKR,,                                                   ForceHostExitUlp,       0, "1"
@@ -5401,6 +6078,14 @@ StartType       = 3 ;%SERVICE_DEMAND_START%
 ErrorControl    = 1 ;%SERVICE_ERROR_NORMAL%
 ServiceBinary   = %13%\e1d68x64.sys
 LoadOrderGroup  = NDIS
+AddReg             = Service_AddReg
+AddReg             = DmaRemapping.reg
+
+[Service_AddReg]
+HKR,, BootFlags, 0x00010001, 0x1
+
+[DMARemapping.reg]
+HKR, Parameters, DmaRemappingCompatible, 0x00010001, 2
 
 ;-------------------------------------------------------------------------------
 ; Common base for all drivers for Eventlog and TextModeFlags
@@ -5410,7 +6095,6 @@ LoadOrderGroup  = NDIS
 AddReg             = winblue.AddEventLog.reg
 
 [winblue.AddEventLog.reg]
-HKR, , EventMessageFile, 0x00020000, "%11%\netevent.dll;%13%\e1dmsg.dll"
 HKR, , TypesSupported,   0x00010001, 7
 
 [MessageDll.CopyFiles]
@@ -5575,6 +6259,10 @@ E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
 E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
 E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
 E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
+E1A1ENC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-LM"
+E1A1FNC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-V"
+E1A1CNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-LM"
+E1A1DNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-V"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -5707,6 +6395,10 @@ E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
 E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
 E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
 E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
+E1A1ENC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-LM"
+E1A1FNC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-V"
+E1A1CNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-LM"
+E1A1DNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-V"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -5839,6 +6531,10 @@ E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
 E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
 E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
 E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
+E1A1ENC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-LM"
+E1A1FNC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-V"
+E1A1CNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-LM"
+E1A1DNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-V"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -5971,6 +6667,10 @@ E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
 E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
 E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
 E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
+E1A1ENC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-LM"
+E1A1FNC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-V"
+E1A1CNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-LM"
+E1A1DNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-V"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -6103,6 +6803,10 @@ E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
 E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
 E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
 E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
+E1A1ENC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-LM"
+E1A1FNC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-V"
+E1A1CNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-LM"
+E1A1DNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-V"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -6144,7 +6848,7 @@ PriorityVlanEnabled2            ="PrioritÈ des paquets et VLAN activÈs"
 TransmitBuffers                 ="Tampons d'Èmission"
 ReceiveBuffers                  ="Tampons de rÈception"
 PriorityVLANTag2                ="PrioritÈ des paquets et VLAN"
-RSS                             ="Receive Side Scaling"
+RSS                             ="Partage du trafic entrant (RSS)"
 NumRssQueues2                   ="Nombre maximum de files d'attente RSS"
 RSSProfile                      ="Profil d'Èquilibrage de la charge RSS"
 Closest_Processor               ="Processeur le plus proche"
@@ -6235,6 +6939,10 @@ E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
 E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
 E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
 E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
+E1A1ENC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-LM"
+E1A1FNC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-V"
+E1A1CNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-LM"
+E1A1DNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-V"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -6367,6 +7075,10 @@ E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
 E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
 E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
 E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
+E1A1ENC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-LM"
+E1A1FNC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-V"
+E1A1CNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-LM"
+E1A1DNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-V"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -6405,8 +7117,8 @@ PriorityVlanDisabled2           ="ÉpÉPÉbÉgóDêÊìxÇ∆ VLAN ñ≥å¯"
 PriorityEnabled2                ="ÉpÉPÉbÉgóDêÊìxóLå¯"
 VlanEnabled                     ="VLAN óLå¯"
 PriorityVlanEnabled2            ="ÉpÉPÉbÉgóDêÊìxÇ∆ VLAN óLå¯"
-TransmitBuffers                 ="ëóêMÉoÉbÉtÉ@"
-ReceiveBuffers                  ="éÛêMÉoÉbÉtÉ@"
+TransmitBuffers                 ="ëóêMÉoÉbÉtÉ@Å["
+ReceiveBuffers                  ="éÛêMÉoÉbÉtÉ@Å["
 PriorityVLANTag2                ="ÉpÉPÉbÉgóDêÊìxÇ∆ VLAN"
 RSS                             ="éÛêMë§ÉXÉPÅ[ÉäÉìÉO"
 NumRssQueues2                   ="RSS ÉLÉÖÅ[ÇÃç≈ëÂêî"
@@ -6499,6 +7211,10 @@ E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
 E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
 E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
 E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
+E1A1ENC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-LM"
+E1A1FNC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-V"
+E1A1CNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-LM"
+E1A1DNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-V"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -6560,11 +7276,11 @@ LAA                             ="∑Œƒ√ ∞¸∏Æ ¡÷º“"
 JumboPacket                     ="¡°∫∏ ∆–≈∂"
 AdaptiveIFS                     ="¿˚¿¿ «¡∑π¿”∞£ ∞£∞›"
 AcDcLinkStep                    ="∏µ≈© º”µµ πË≈Õ∏Æ ¿˝¿¸"
-WakeOnMagicPacket               ="Wake on Magic Packet"
+WakeOnMagicPacket               ="Wake on ∏≈¡˜ ∆–≈∂"
 Enable_PME                      ="PME »∞º∫»≠"
 Forced                          ="∞≠¡¶"
 WakeOnLinkSettings              ="∏µ≈© º≥¡§ Ω√ ±˙øÏ±‚"
-WakeOnPattern                   ="Wake on Pattern Match"
+WakeOnPattern                   ="Wake on ∆–≈œ ¿œƒ°"
 LogLinkState                    ="∏µ≈© ªÛ≈¬ ¿Ã∫•∆Æ ±‚∑œ"
 InterruptModeration             ="¿Œ≈Õ∑¥∆Æ ¡∂¿˝"
 InterruptThrottleRate           ="¿Œ≈Õ∑¥∆Æ ¡∂¿˝ º”µµ"
@@ -6631,6 +7347,10 @@ E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
 E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
 E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
 E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
+E1A1ENC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-LM"
+E1A1FNC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-V"
+E1A1CNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-LM"
+E1A1DNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-V"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -6658,13 +7378,13 @@ PMARPOffload                    ="Descarga de protocolo ARP"
 PMNSOffload                     ="Descarga de protocolo NS"
 LsoV2IPv4                       ="Descarga de envio grande V2 (IPv4)"
 LsoV2IPv6                       ="Descarga de envio grande V2 (IPv6)"
-ChksumOffTxRx                   ="Rx e Tx habilitadas"
-ChksumOffTx                     ="Tx habilitada"
-ChksumOffRx                     ="Rx habilitada"
+ChksumOffTxRx                   ="Rx e Tx habilitados"
+ChksumOffTx                     ="Tx habilitado"
+ChksumOffRx                     ="Rx habilitado"
 FlowControl                     ="Controle de fluxo"
-FlowControl_TxOnly              ="Tx habilitada"
-FlowControl_RxOnly              ="Rx habilitada"
-FlowControl_Full                ="Rx e Tx habilitadas"
+FlowControl_TxOnly              ="Tx habilitado"
+FlowControl_RxOnly              ="Rx habilitado"
+FlowControl_Full                ="Rx e Tx habilitados"
 PriorityVlanDisabled2           ="Prioridade de pacotes e VLAN desabilitadas"
 PriorityEnabled2                ="Prioridade de pacotes habilitada"
 VlanEnabled                     ="VLAN habilitada"
@@ -6685,7 +7405,7 @@ Conservative_Scaling            ="Escala conservadora"
 On                              ="Ligado"
 Off                             ="Desligado"
 Enabled                         ="Habilitado"
-Disabled                        ="Desabilitada"
+Disabled                        ="Desabilitado"
 Bytes4088                       ="4088 Bytes"
 Bytes9014                       ="9014 Bytes"
 LAA                             ="EndereÁo administrado localmente (LAA)"
@@ -6763,6 +7483,10 @@ E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
 E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
 E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
 E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
+E1A1ENC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-LM"
+E1A1FNC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-V"
+E1A1CNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-LM"
+E1A1DNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-V"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------
@@ -6895,6 +7619,10 @@ E15FCNC.DeviceDesc              = "Intel(R) Ethernet Connection (13) I219-V"
 E15F9NC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-LM"
 E15FANC.DeviceDesc              = "Intel(R) Ethernet Connection (14) I219-V"
 E15F4NC.DeviceDesc              = "Intel(R) Ethernet Connection (15) I219-LM"
+E1A1ENC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-LM"
+E1A1FNC.DeviceDesc              = "Intel(R) Ethernet Connection (16) I219-V"
+E1A1CNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-LM"
+E1A1DNC.DeviceDesc              = "Intel(R) Ethernet Connection (17) I219-V"
 
 ;---------------------------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------------------------------

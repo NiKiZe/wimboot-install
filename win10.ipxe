@@ -8,15 +8,26 @@ imgfree
 kernel wimboot gui rawbcd                                                          || shell
 initrd --name BCD                win10/BCD                      BCD                || shell
 initrd --name boot.sdi           win10/boot.sdi                 boot.sdi           || shell
+
+set startnetx
+
+# E1D68
+# TODO 0d4f only installing drivers in winpe, not when getting into windows.
+# 15fc on T15 not working in winpe either
+# TODO also fix ipxe sources and test
+iseq ${pciid} 80860d4f && goto use_e1d68 ||
+iseq ${pciid} 808615fc && goto use_e1d68 ||
 iseq ${pciid} 808615bb && goto use_e1d68 ||
 iseq ${pciid} 808615be && goto use_e1d68 ||
 goto skip_e1d68
 :use_e1d68
+set startnetx ${startnetx}&drvload=e1d68x64.inf
 initrd     win10/drv/i219v_e1d68/e1d68x64.cat ||
 initrd     win10/drv/i219v_e1d68/e1d68x64.inf ||
 initrd     win10/drv/i219v_e1d68/e1d68x64.sys ||
 initrd     win10/drv/i219v_e1d68/e1dmsg.dll ||
 :skip_e1d68
+
 iseq ${pciid} 1af41000 && goto use_virtio ||
 goto skip_virtio
 :use_virtio
@@ -33,7 +44,7 @@ initrd     win10/drv/virtio/viostor.inf  viostor.inf ||
 initrd     win10/drv/virtio/viostor.sys  viostor.sys ||
 goto skip_virtio
 :skip_virtio
-initrd --name startnet.cmd  win10/startnet.php?mac=${netX/mac:hexraw}&pciid=${pciid}  startnet.cmd       || shell
+initrd --name startnet.cmd  win10/startnet.php?mac=${netX/mac:hexraw}&pciid=${pciid}${startnetx}  startnet.cmd       || shell
 initrd --name winpe.jpg          win10/winpe.jpg                winpe.jpg          || echo no background - ignored
 initrd --name winre.jpg          win10/winpe.jpg                winre.jpg          || echo no background - ignored
 initrd --name setup.bmp          win10/winpe.jpg                setup.bmp          || echo no background - ignored
