@@ -55,7 +55,7 @@ IF %EL% NEQ 0 GOTO :FAIL
 @echo The Drive is: %DRIVE%
 <?php
 if (!empty($drvload)) {
-  echo "@echo Todo copy drivers to: %DRIVE%\r\n";
+  echo "@echo Install drivers to: %DRIVE%\r\n";
   echo "Dism /Image:%DRIVE%:\ /Add-Driver /Driver:$drvload\r\n";
 } ?>
 Dism /Image:%DRIVE%:\ /enable-feature /featurename:NetFx3 /All /Source:"s:\sources en\sources\sxs" /LimitAccess /NoRestart /LogLevel:4
